@@ -1,0 +1,91 @@
+:root {
+  --brand-primary: #f6b638;
+  --brand-primary-lighten: #fff9f2;
+  --brand-secondary: #dd6c43;
+  --neutral-black: #141313;
+  --neutral-1: #222222;
+  --neutral-2:#717171;
+  --neutral-3:#a0a0a0;
+  --neutral-4:#d0d0d0;
+  --neutral-5:#eeeeee;
+  --neutral-white: #ffffff;
+  --accent-1: #e1604d;
+  --accent-2:#7cc6d6;
+  --accent-3:#3a8888;
+  --accent-4: #ab9aec;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+p{
+  font-size: 18px;
+}
+
+.button__primary {
+  background: var(--neutral-black);
+  color: var(--neutral-white);
+  font-size: 14px;
+  padding: 6px;
+}
+
+.button__secondary {
+  background-color: var(--neutral-white);
+  color: var(--neutral-black);
+  font-size: 14px;
+  padding: 6px;
+}
+
+.header__notise {
+  background-color: var(--brand-primary);
+  text-align: center;
+  font-size: 14px;  
+  margin: 0;
+  padding: 16px;
+  
+}
+
+.nav {
+  list-style-type: none;
+  font-size: 14px;
+  display: flex ;
+  gap: 64px;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav__item {
+  color: var(--neutral-black);
+}
+
+.hero__title {
+  font-size: 16px;
+  text-align: center;
+}
+
+.hero__text {
+  font-size: 86px;
+  text-align: center;
+}
+
+.hero__button {
+  display: flex;
+  justify-content: center;
+  width: 166px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
