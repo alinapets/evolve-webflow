@@ -30,6 +30,7 @@
 body {
   margin: 0;
   font-family: "Messapia";
+  overflow-x: hidden;
 }
 
 h1 {
@@ -50,7 +51,7 @@ p {
   background: var(--neutral-black);
   color: var(--neutral-white);
   font-size: 14px;
-  padding: 6px, 0px;
+  padding: 6px 0px;
   text-transform: uppercase;
 }
 
@@ -58,8 +59,12 @@ p {
   background-color: var(--neutral-white);
   color: var(--neutral-black);
   font-size: 14px;
-  padding: 6px, 0px;
   text-transform: uppercase;
+  border: 1px solid #141313;
+  padding: 12px 18px;
+  text-align: center;  
+  font-weight: 700;
+ 
 }
 
 .header__notise {
@@ -157,12 +162,16 @@ p {
 .cargo__cartka {
   background-color: var(--neutral-black);
   width: 290px;
+  height: 100%;
 }
 
 .title__item {
   font-size: 28px;
   font-weight: 400;
   color: var(--neutral-white);
+  margin-bottom: 4px;
+  margin-top: 16px;
+  padding-left: 16px;
 }
 
 .price__item {
@@ -170,11 +179,213 @@ p {
   font-weight: 700;
   color: var(--neutral-white);
   opacity: 70%;
+  margin: 0;
+  padding-left: 16px;
 }
 
 .disconte__item {
   font-size: 14px;
   font-weight: 700;
   color: var(--neutral-white);
-  
+  margin: 0;
+  margin-bottom: 16px;
+  padding-left: 16px; 
 }
+
+.cargo__catalog__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 16px;
+}
+
+.cargo__footer {
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-bottom: 64px;
+  padding-top: 56px;
+}
+
+.gallery {
+  display: flex;
+  align-items: baseline;
+  padding-bottom: 64px;
+  padding-top: 64px;
+  padding-left: 80px;
+}
+
+.gallery__description {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.gallery__title {
+  font-weight: 400;
+  font-size: 86px;
+  margin: 0;
+}
+
+.gallery__text {
+  font-weight: 400;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin: 0;
+}
+
+.gallery__button {
+  font-size: 14px;
+  padding: 18px 26px;
+  margin: 0;
+}
+
+.gallery__item {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  list-style-type: none;
+  gap: 16px;
+  margin-right: -120px;
+}
+
+.roundabout__title {
+  font-weight: 400;
+  font-size: 44px;
+  text-align: center;
+  margin: 0;
+}
+
+.roundabout__text {
+  display: flex;
+  text-align: center;
+}
+
+.roundabout__footer {
+  display: flex;
+}
+
+.roundabout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1280px;
+  padding: 80px 64px;
+}
+
+.blockquote p {
+  font-weight: 400;
+  font-size: 28px;
+}
+
+.roundabout cite {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+
+}
+
+.products__description {
+  display: flex;
+  align-items: flex-end;
+  gap: 40px;
+  width: 1280px;
+  padding: 64px 80px 16px 80px;
+}
+
+.products__title {
+  font-size: 86px;
+  font-weight: 400;
+  margin-right: 40px;
+  margin-bottom: 0;
+}
+
+.products__text {
+  text-align: start;
+}
+
+.products__item {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.products__item li {
+  display: flex;
+  align-items: center;
+}
+
+.products__item__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.products__name {
+  font-weight: 400;
+  font-size: 35px;
+}
+
+.products__button{
+  font-size: 14px;
+  padding: 8px 0px;
+  font-weight: 400;
+  width: 96px;
+  text-align: center;
+}
+
+.team {
+  background-color: var(--neutral-black);
+  color: var(--neutral-white);
+}
+
+.team__title {
+  font-size: 44px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.team__text {
+  font-weight: 400;
+  text-align: center;
+}
+
+.team__members {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  list-style-type: none;
+  gap: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.team__item {
+  display: flex;
+}
+
+.team__item__title {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+  padding-left: 16px;
+}
+
+.team__item__title h3,
+.team__item__title p  {
+  margin: 0;
+}
+
+.team__item__title h3 {
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.team__item__title p {
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
