@@ -82,8 +82,8 @@
         <h2 class="gallery__title">A New <br> Approach</h2>
         <p class="gallery__text">We have redefined the hand made goods industry. By empowering individuals to get their products in front of customers we are creating a new economy.</p>
         <a href="#" class="button__primary gallery__button">Read our Story</a>
-     </div>
-     <div >
+      </div>
+      <div >
         <ul class="gallery__item">
           <li>
             <img src="img/portfolio_1.png" alt="" width="200">
@@ -201,7 +201,7 @@
           <div class="team__item__title">
             <h3>Levi Brown</h3>
             <p>Intern</p>
-         </div>
+          </div>
         </li>
         <li class="team__item">
           <img src="img/people4.png" alt="" width="120">
@@ -244,20 +244,26 @@
         </li>
       </ul>
     </section>
-    <section>
-      <h2>Stay updated with the latest news!</h2>
+    <section class="form">
+      <h2 class="form__title">Stay updated with the latest news!</h2>
       <form>
-        Name: <br>
-        <input type="text" name="Name"> <br>
-        Email Address: <br>
-        <input type="text" name="Email"> <br> <br>
-        <input type="submit" value="Subscribe!" class="button__primary"> <br>
+        <div class="mailing">
+          <div class="mailing__name"> 
+            Name: <br>
+            <input type="text" name="Name" placeholder="Name"> <br>
+          </div>
+          <div class="mailing__email">
+            Email Address: <br>
+            <input type="text" name="Email" placeholder="Email"> <br> <br>
+          </div>
+          <input type="submit" value="Subscribe!" class="button__primary form__button"> <br>
+        </div>
         <input type="checkbox" name="vehicle1" value="I ACCEPT">I ACCEPT THE PRIVACY POLICY AND TERMS OF USE. <br>
       </form>
     </section>
-    <section>
-      <h2>Show Us Your Evolution</h2>
-      <ul>
+    <section class="insta">
+      <h2 class="insta__title">Show Us Your Evolution</h2>
+      <ul class="insta__galarry">
         <li>
           <img src="img/portfolio_9.png" alt="" width="332">
           <img src="img/Instagram1.svg" alt="" width="80">
@@ -275,119 +281,133 @@
           <img src="img/Instagram1.svg" alt="" width="80">
         </li>
       </ul>
+      
       <p>#MyEvolution</p>
     </section>
   </main>
   <footer>
-    <section>
-      <h2>EVOLVE</h2>
-      <ul>
-        <li>
-          <a href="#">Products</a>
-          <ul>
-            <li>
-              <a href="#">All Products</a>
-            </li>
-            <li>
-              <a href="#">Best Sellers</a>
-            </li>
-            <li>
-              <a href="#">Home Goods</a>
-            </li>
-            <li>
-              <a href="#">Skin Care</a>
-            </li>
-            <li>
-              <a href="#">Food & Drink</a>
-            </li>
-          </ul>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <a href="#">Who We Are</a>
-          <ul>
-            <li>
-              <a href="#">Blog</a>
-            </li>
-            <li>
-              <a href="#">Our Story</a>
-            </li>
-            <li>
-              <a href="#">Our Mission</a>
-            </li>
-            <li>
-              <a href="#">Our Team</a>
-            </li>
-            <li>
-              <a href="#">Careers</a>
-            </li>
-          </ul>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <a href="#">Contact & Help</a>
-          <ul>
-            <li>
-              <a href="#">208 (534)–3930</a>
-            </li>
-            <li>
-              <a href="#">hello@evolve.com</a>
-            </li>
-            <li>
-              <a href="#">Terms & Conditions</a>
-            </li>
-            <li>
-              <a href="#">Terms & Conditions</a>
-            </li>
-            <li>
-              <a href="#">FAQ</a>
-            </li>
-          </ul>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <a href="#">
-            <img src="img/Facebook.svg" alt="">
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="img/Mail.svg" alt="">
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="img/Youtube.svg" alt="">
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="img/Instagram.svg" alt="">
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="img/Twitter.svg" alt="">
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="img/Grid_Row.svg" alt="">
-          </a>
-        </li>
-      </ul>
+    <section class="footer">
+      <h2 class="footer__title">EVOLVE</h2>
+      <div class="footer__menu">
+        <ul class="footer__products">
+          <li>
+            <a href="#">Products</a>
+            <ul>
+              <li class="footer__products__item">
+                <a href="#">All Products</a>
+              </li>
+              <li class="footer__products__item">
+                <a href="#">Best Sellers</a>
+              </li>
+              <li class="footer__products__item">
+                <a href="#">Home Goods</a>
+              </li>
+              <li class="footer__products__item">
+                <a href="#">Skin Care</a>
+              </li>
+              <li class="footer__products__item">
+                <a href="#">Food & Drink</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="footer__who">
+          <li>
+            <a href="#">Who We Are</a>
+            <ul>
+              <li class="who__item">
+                <a href="#">Blog</a>
+              </li>
+              <li class="who__item">
+                <a href="#">Our Story</a>
+              </li>
+              <li class="who__item">
+                <a href="#">Our Mission</a>
+              </li>
+              <li>
+                <a href="#">Our Team</a>
+              </li>
+              <li class="who__item">
+                <a href="#">Careers</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="footer__contact">
+          <li>
+            <a href="#">Contact & Help</a>
+            <ul>
+              <li class="contact__item">
+                <a href="#">208 (534)–3930</a>
+              </li>
+              <li class="contact__item">
+                <a href="#">hello@evolve.com</a>
+              </li>
+              <li class="contact__item">
+                <a href="#">Terms & Conditions</a>
+              </li>
+              <li class="contact__item">
+                <a href="#">Terms & Conditions</a>
+              </li>
+              <li class="contact__item">
+                <a href="#">FAQ</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="footer__social">
+          <li>
+            <a href="#">Get Social!</a>      
+            <ul>
+              <li class="social__item">
+                <a href="#">
+                  <img src="img/Facebook.svg" alt="">
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="#">
+                  <img src="img/Mail.svg" alt="">
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="#">
+                  <img src="img/Youtube.svg" alt="">
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="#">
+                  <img src="img/Instagram.svg" alt="">
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="#">
+                  <img src="img/Twitter.svg" alt="">
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="#">
+                  <img src="img/Grid_Row.svg" alt="">
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
     </section>
     <section>
-      <h2>Stay In The Loop!</h2>
+      <h2 class="form__title">Stay In The Loop!</h2>
       <form>
-        Name: <br>
-        <input type="text" name="Name"> <br>
-        Email Address: <br>
-        <input type="text" name="Email"> <br> <br>
-        <input type="submit" value="Subscribe!" class="button__primary"> <br>
+        <div class="mailing">
+          <div class="mailing__name"> 
+            Name: <br>
+            <input type="text" name="Name" placeholder="Name"> <br>
+          </div>
+          <div class="mailing__email">
+            Email Address: <br>
+            <input type="text" name="Email" placeholder="Email"> <br> <br>
+          </div>
+          <input type="submit" value="Subscribe!" class="button__primary form__button"> <br>
+        </div>
         <input type="checkbox" name="vehicle1" value="I ACCEPT">I ACCEPT THE PRIVACY POLICY AND TERMS OF USE. <br>
       </form>
     </section>

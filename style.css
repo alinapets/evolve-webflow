@@ -421,3 +421,86 @@ p {
   list-style-type: none;
 }
 
+.mailing {
+  display: flex;
+  gap: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+ 
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form__button {
+  width: 159px;
+  height: 44px;
+}
+
+.mailing__email input,
+.mailing__name input {
+  width: 305px;
+  height: 44px;
+}
+
+.form__title {
+  font-weight: 400;
+  font-size: 35px;
+  text-align: center;
+}
+
+.insta {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.insta__title {
+  font-weight: 400;
+  font-size: 44px;
+  text-align: center;
+}
+
+.insta__galarry {
+  list-style-type: none;
+  display: flex;
+
+}
+
+.insta p {
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.footer__title {
+  font-weight: 400;
+  font-size: 38px;
+  text-align: center;
+}
+
+.footer__menu {
+  display: flex;
+}
+
+.footer__products,
+.footer__products__item{
+  list-style-type: none;
+}
+
+
+.footer__menu a {
+  color: var(--neutral-black);
+}
+
+.footer__who,
+.who__item {
+  list-style-type: none;
+}
+
+.footer__contact,
+.contact__item {
+  list-style-type: none;
+}
