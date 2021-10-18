@@ -33,6 +33,10 @@ body {
   overflow-x: hidden;
 }
 
+ul,li {
+  padding: 0;
+}
+
 h1 {
   font-size: 40px;
   text-align: center;
@@ -483,6 +487,7 @@ p {
 
 .footer__menu {
   display: flex;
+  gap: 238px;
 }
 
 .footer__products,
@@ -503,4 +508,40 @@ p {
 .footer__contact,
 .contact__item {
   list-style-type: none;
+}
+
+.footer__products__menu,
+.footer__who__menu,
+.footer__contact__menu {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-size: 14px;
+}
+
+.social__title,
+.contact__title,
+.who__title,
+.footer__products__title {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  display: block;
+}
+
+.footer__social {
+  list-style-type: none;
+}
+
+.social__item {
+  list-style-type: none;
+}
+
+.social__menu {
+  display: flex;
+}
+
+.social__spotify {
+  display: block;
 }
